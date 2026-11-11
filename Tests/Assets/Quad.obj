@@ -1,0 +1,22 @@
+# Unit quad in the z = 0 plane, requiring fan triangulation on import.
+# Exercises directives that must be recognised and skipped without error:
+# object name, material references, texture coordinates, and normals.
+mtllib quad.mtl
+o UnitQuad
+usemtl Default
+
+v 0.0 0.0 0.0
+v 1.0 0.0 0.0
+v 1.0 1.0 0.0
+v 0.0 1.0 0.0
+
+vt 0.0 0.0
+vt 1.0 0.0
+vt 1.0 1.0
+vt 0.0 1.0
+
+vn 0.0 0.0 1.0
+
+# Face vertex references use the full 'v/vt/vn' form; only the position
+# component should be used by the importer.
+f 1/1/1 2/2/1 3/3/1 4/4/1

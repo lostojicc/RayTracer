@@ -1,0 +1,7 @@
+# Single triangle. The minimal external model for M4 (specs/milestones.md).
+# No triangulation is required: the face already has exactly 3 vertices.
+v 0.0 0.0 0.0
+v 1.0 0.0 0.0
+v 0.0 1.0 0.0
+
+f 1 2 3

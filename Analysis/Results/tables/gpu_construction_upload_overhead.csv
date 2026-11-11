@@ -1,0 +1,7 @@
+scene,triangle_count,bvh_build_serialize_ms,gpu_triangle_upload_ms,gpu_bvh_node_upload_ms,gpu_bvh_primitive_upload_ms,total_onetime_overhead_ms,single_frame_render_mean_ms,overhead_to_one_frame_ratio,frames_until_overhead_leq_10pct_of_cumulative_time,frames_until_overhead_leq_1pct_of_cumulative_time
+Synthetic_100,100,0.0133,0.1224,0.0233,0.0115,0.1704,0.0434,3.925,36,389
+Synthetic_1000,1000,0.1959,0.0331,0.0262,0.0124,0.2675,0.1239,2.159,20,214
+Synthetic_10000,10000,2.71,0.6746,0.0852,0.2588,3.7286,0.3337,11.173,101,1107
+Bunny,69630,17.325,1.1352,1.7267,0.1831,20.37,0.4747,42.909,387,4248
+Synthetic_100000,100000,28.3543,2.8496,2.3495,0.2605,33.814,1.1385,29.701,268,2941
+Armadillo,212574,49.916,4.3652,4.5793,0.723,59.5834,2.7394,21.751,196,2154

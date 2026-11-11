@@ -1,0 +1,4 @@
+scene,triangle_count,bf_mean_ms,bf_stddev_ms,bf_cov_pct,bvh_mean_ms,bvh_stddev_ms,bvh_cov_pct,abs_diff_ms,speedup_x,relative_reduction_pct,gpu_pixel_check_performed,gpu_pixel_check_passed,gpu_pixel_max_abs_diff
+Synthetic_100,100,0.1559,0.0006,0.416,0.0434,0.0005,1.218,0.1124,3.59,72.142,True,True,0.0
+Synthetic_1000,1000,1.5487,0.0035,0.223,0.1239,0.0018,1.458,1.4248,12.499,91.999,True,True,0.0
+Synthetic_10000,10000,21.0943,0.0707,0.335,0.3337,0.016,4.807,20.7606,63.209,98.418,True,True,0.0

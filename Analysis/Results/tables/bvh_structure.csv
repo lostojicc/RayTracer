@@ -1,0 +1,7 @@
+scene,triangle_count,leaf_size,node_count,leaf_count,max_depth,min_leaf_size,max_leaf_size,average_leaf_size,theoretical_min_leaf_count_ceil_N_over_leafsize,leaf_count_ratio_to_theoretical_min,theoretical_max_depth_ceil_log2_N_over_leafsize,measured_minus_theoretical_depth,node_count_equals_2xleaf_minus_1
+Synthetic_100,100,4,63,32,5,3,4,3.125,25,1.28,5,0,True
+Synthetic_1000,1000,4,511,256,8,3,4,3.9062,250,1.024,8,0,True
+Synthetic_10000,10000,4,7711,3856,12,2,4,2.5934,2500,1.5424,12,0,True
+Bunny,69630,4,40955,20478,15,2,4,3.4002,17408,1.1764,15,0,True
+Synthetic_100000,100000,4,65535,32768,15,3,4,3.0518,25000,1.3107,15,0,True
+Armadillo,212574,4,131071,65536,16,3,4,3.2436,53144,1.2332,16,0,True

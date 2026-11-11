@@ -1,0 +1,6 @@
+# CMake directory
+build/
+
+# Python cache from Analysis/Source scripts
+__pycache__/
+*.pyc

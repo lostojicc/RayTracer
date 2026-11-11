@@ -1,0 +1,7 @@
+scene,triangle_count,kind,cpu_bruteforce_us_per_ray,cpu_bvh_us_per_ray,cpu_bvh_build_us_per_triangle
+Synthetic_100,100,synthetic,1.6518,0.2899,0.12654
+Synthetic_1000,1000,synthetic,16.9765,0.8986,0.13171
+Synthetic_10000,10000,synthetic,171.3051,2.0479,0.17905
+Bunny,69630,real,1194.1472,0.7438,0.20812
+Synthetic_100000,100000,synthetic,1742.4679,7.9772,0.22338
+Armadillo,212574,real,3853.7406,0.8404,0.22785
